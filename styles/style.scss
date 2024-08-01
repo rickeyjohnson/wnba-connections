@@ -11,9 +11,27 @@
 #content {
     @include flexCenter();
     flex-direction: column;
+    gap: 1rem;
 }
 
 #mistakes-container {
     @include flexCenter();
     flex-direction: row;
+}
+
+#cards-container {
+    @include flexCenter();
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: calc(10rem * 5);
+}
+
+.card {
+    @include flexCenter();
+    background-color: aqua;
+    border-radius: 0.4rem;
+    width: $card-width;
+    height: $card-height;
+    background-color: $card-bg-color;
 }

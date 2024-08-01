@@ -1,3 +1,8 @@
+$card-width: 10rem;
+$card-height: 5rem;
+$card-bg-color: #efefe6;
+$default-font: 'Times New Roman';
+
 @mixin flexCenter() {
     display: flex;
     justify-content: center;
