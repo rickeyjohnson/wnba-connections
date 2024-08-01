@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+}
+
+#logo-title {
+  flex: 1;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mistakes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+@import "./globals";
+
+#header {
+    display: flex;
+}
+
+#logo-title {
+    flex: 1;
+}
+
+#content {
+    @include flexCenter();
+    flex-direction: column;
+}
+
+#mistakes-container {
+    @include flexCenter();
+    flex-direction: row;
+}
