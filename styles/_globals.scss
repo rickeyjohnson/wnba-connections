@@ -1,12 +1,18 @@
 $card-width: 10rem;
 $card-height: 5rem;
 $card-bg-color: #efefe6;
+$card-selected-bg-color: #5a594e;
 $default-font: 'Times New Roman';
 
 @mixin flexCenter() {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin selected() {
+    background-color: $card-selected-bg-color;
+    color: #fff;
 }
 
 * {

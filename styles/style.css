@@ -46,4 +46,15 @@
   width: 10rem;
   height: 5rem;
   background-color: #efefe6;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:active {
+  background-color: #5a594e;
+  color: #fff;
+}
+.card.selected {
+  background-color: #5a594e;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

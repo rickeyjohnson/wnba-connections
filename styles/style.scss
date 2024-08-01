@@ -34,4 +34,16 @@
     width: $card-width;
     height: $card-height;
     background-color: $card-bg-color;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        @include selected();
+    }
+
+    &.selected {
+        @include selected();
+    }
 }
