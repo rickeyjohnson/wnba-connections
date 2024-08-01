@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "Anton";
+  src: url("../fonts/Anton/Anton-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
 }
 
 #header {
@@ -10,6 +18,12 @@
 
 #logo-title {
   flex: 1;
+  display: flex;
+}
+
+#title {
+  font-size: 2rem;
+  font-family: "Anton";
 }
 
 #content {

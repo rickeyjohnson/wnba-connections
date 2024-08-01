@@ -6,6 +6,12 @@
 
 #logo-title {
     flex: 1;
+    display: flex;
+}
+
+#title {
+    font-size: 2rem;
+    font-family: $title-font;
 }
 
 #content {
