@@ -10,6 +10,7 @@
 
 body {
   height: 100vh;
+  padding-top: 5.5rem;
 }
 
 #header {
@@ -32,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  gap: 1rem;
 }
 
 #cards-container {
@@ -65,4 +66,14 @@ body {
 .card.selected {
   background-color: #5a594e;
   color: #fff;
+}
+
+#game-controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#game-controls-container .game-control-button {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

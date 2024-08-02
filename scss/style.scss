@@ -16,7 +16,7 @@
 
 #mistakes-container {
     @include flexCenter();
-    flex-direction: row;
+    gap: 1rem;
 }
 
 #cards-container {
@@ -45,5 +45,14 @@
 
     &.selected {
         @include selected();
+    }
+}
+
+#game-controls-container {
+    @include flexCenter();
+    gap: 1rem;
+    
+    .game-control-button {
+        padding: 10px;
     }
 }
