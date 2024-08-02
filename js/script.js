@@ -8,5 +8,7 @@ cards.forEach((card) => {
 })
 
 deselectButton.addEventListener("click", (event) => {
-    console.log('deselect btn works!')
+    cards.forEach((card) => {
+        card.classList.remove("selected")
+    })
 })
