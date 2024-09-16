@@ -1,13 +1,13 @@
-body {
+.title-container {
     font-family: 'Times New Roman' monospace;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }

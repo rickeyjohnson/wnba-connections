@@ -1,0 +1,11 @@
+.card {
+    background-color: lightgray;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card:hover {
+    cursor: pointer;
+}
