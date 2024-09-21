@@ -1,22 +1,18 @@
 import { useState } from 'react'
 import './Card.css'
 
-function Card({name, categoryTitle}) {
+function Card({name, category, isSelected, onclick}) {
 
-    let [className, selectCard] = useState("card " + categoryTitle)
+    let className = "card"
 
-    const updateSelected = () => {
-        console.log(name + " was clicked")
-        
-        if (className.includes("selected")) {
-            selectCard(className.replace("selected", ""))
-        } else {
-            selectCard(className += " selected")
-        }
+    if (isSelected) {
+        className += " selected"
+    } else {
+        className.replace("selected", "")
     }
 
     return(
-        <button className={className} key={name} onClick={updateSelected}>{name}</button>
+        <button className={className} onClick={onclick}>{name}</button>
     )
 }
 

@@ -1,5 +1,5 @@
 .card {
-    background-color: lightgray;
+    background-color: #efefe6;
     text-align: center;
     padding: 2.5rem;
     border-radius: 0.5rem;
@@ -11,5 +11,6 @@
 }
 
 .selected {
-    background-color: pink;
+    background-color: #5a594e;
+    color: #ffffff;
 }
