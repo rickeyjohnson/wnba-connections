@@ -8,7 +8,7 @@ function CardContainer() {
             <Card name="a'ja wilson"/>
             <Card name="a'ja wilson"/>
             <Card name="a'ja wilson"/>
-            <Card name="a'ja wilson"/>
+            <Card name="steph"/>
             <Card name="a'ja wilson"/>
             <Card name="a'ja wilson"/>
             <Card name="a'ja wilson"/>
