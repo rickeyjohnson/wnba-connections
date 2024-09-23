@@ -48,4 +48,4 @@ function CardContainer() {
     )
 }
 
-export default CardContainer;
+export default CardContainer

@@ -1,0 +1,22 @@
+.btn-container {
+    margin-top: 3rem;
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 1rem 1.5rem;
+    border: 0.1rem solid #5a594e;
+    background-color: #fff;
+    border-radius: 4rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border-color: #5a5a5a;
+    color: #5a5a5a;
+}
